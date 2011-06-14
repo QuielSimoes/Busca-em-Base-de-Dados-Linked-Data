@@ -1,0 +1,128 @@
+body{
+    background-image: url('../img/futebol.jpg');
+    background-repeat:no-repeat;
+    background-position:right;
+}
+
+.nuvem{
+    background-image: url('../img/nuvem.gif');
+    background-repeat:no-repeat;
+    background-position:center;
+	height: 380px;
+	
+}
+
+.lupa{
+    background-image: url('../img/lupa-search.jpg');
+    background-repeat:no-repeat;
+}
+
+.entrada{
+    width: 360px;
+}
+
+.topo{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    font-style:italic;
+    font-family:serif;
+}
+
+.oculta{
+    display:none;
+}
+
+.resultado{
+    background-color:#FFFFFF;
+    border-style: solid;
+    border-width:1px;
+    border-collapse:collapse;
+    margin-top: 83px;
+    text-align: center; 
+    float: right;    
+    width: 67%;
+}
+
+.ajaxLoad{
+    height:60px;
+    width:220px;    
+    text-align:center;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:16px;
+    color:#306161;
+    border-width:1px;
+    border-color:#999933;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-110px;
+    margin-top:-30px;
+    z-index:10;
+    padding:10px 0px;
+}
+
+
+.retorno{   
+    border-style: solid;
+    border-width:1px;
+    border-collapse:collapse;   
+}
+
+.retorno th{
+    background-color:gray;
+}
+
+button{
+    outline:none;
+}
+
+.direita{
+    float:right;
+}
+
+.esquerda{
+    float:left;
+}
+
+.highlight {
+    background-color: yellow
+}
+
+.ponteiro{
+    cursor:pointer;
+}
+
+a:link, a:visited {
+    text-decoration: none
+}
+a:hover {
+    text-decoration: underline;
+    color: #f006FA;
+    background-color:yellow;
+}
+a:active {
+    text-decoration: none
+}
+
+.tags{
+    border-width:1px;
+    border-style:solid;
+    border-collapse:collapse;
+    width:100%;
+    height:30%;
+    text-align:center;
+}
+.search{
+
+}
+.tagStyle{
+    font-size:30px;
+    color:blue;
+}
+
+.aumentaFonte{
+    font-size:50px;
+}
